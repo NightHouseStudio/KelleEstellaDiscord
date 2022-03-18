@@ -47,30 +47,6 @@ fs.readdir("./comandos/", (err, files) => {
   });
 });
 
-// fs.readdir("./comandos/imageManipulation/", (err, files) => {
-// 	if(err) console.error(err);
-
-// 	let arquivojs = files.filter(f => f.split(".").pop() == "js");
-
-//  arquivojs.forEach(f => {
-//    let props = require (`./comandos/imageManipulation/${f}`);
-//    console.log(`Manipulador de imagem: ${f} carregado com sucesso.`)
-//    props.help.name.forEach(e => bot.commands.set(e, props));
-//     });
-//  });
-
-// fs.readdir("./comandos/textManipulation/", (err, files) => {
-// 	if(err) console.error(err);
-
-// 	let arquivojs = files.filter(f => f.split(".").pop() == "js");
-
-//   arquivojs.forEach(f => {
-//     let props = require (`./comandos/textManipulation/${f}`);
-//     console.log(`Manipulador de texto: ${f} carregado com sucesso.`)
-//     props.help.name.forEach(e => bot.commands.set(e, props));
-// });
-// });
-
 bot.on("clickButton", async (button) => {
   // console.log(button.clicker.user.tag);
   // se escolher pedra
