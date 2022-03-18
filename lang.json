@@ -1,0 +1,9 @@
+{
+  "languages": ["pt", "en"],
+  "translations": {
+    "GERAR_ASSUNTO": {
+      "pt": "Me chamou? Vim aqui pra quebrar o gelo! 🥶",
+      "en": "You called me? I'm here to break the ice! 🥶"
+    }
+  }
+}
