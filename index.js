@@ -234,25 +234,6 @@ bot.on("ready", async () => {
   const data = await prefix.countDocuments({});
   cluster = ` | Cluster 1 [${data}]`;
 
-  // console.log(data)
-  // 	const options = {
-  //   hostname: 'discordbotlist.com',
-  //   method: 'POST',
-  //   headers: {
-  //     'Authorization': 'eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ0IjoxLCJpZCI6IjM2NTk3NTY1NTYwODc0NTk4NSIsImlhdCI6MTU5MDI3NjEwOH0.UESu-Jm9kA_FCpRPSMjVwMGYJmLPxg44g_I7eDz5ZmQ',
-  //     'Content-Type': 'application/json'
-  //   },
-  //   body: '{ "guilds": "100" }'
-  // }
-
-  // const req = https.request(options, (res) => {
-  //   console.log(`STATUS: ${res.statusCode}`);
-  //   console.log(`HEADERS: ${JSON.stringify(res.headers)}`);
-  //   res.setEncoding('utf8');
-  //   res.on('data', (chunk) => {
-  //     console.log(`BODY: ${chunk}`);
-  //   });
-  // });
 
   console.log("Estou pronto para ser usado! (^-^)");
   let activNum = 0;
@@ -326,17 +307,9 @@ bot.on("ready", async () => {
   //
 });
 // Create an event listener for messages
-bot.on("message", async (message) => {
-  if (message.guild.me.nickname === "puta") {
-    if (!message.guild.me.hasPermission("MANAGE_NICKNAMES")) {
-      message.channel.send("Não tenho permissão pra mudar apelidos.");
-    } else {
-      message.lineReply(
-        "**Alguém colocou um apelido feio em mim. Posso até não ser humana mas também tenho sentimentos, atitudes assim me deixam magoada. Acabei de resetar meu nickname. 🌙<:kelle_cry:746498437809307690>**"
-      );
-      message.guild.me.setNickname("Kelle");
-    }
-  }
+
+bot.on("message", async(message) => {
+  
   if (message.author.bot) return;
 
   const data = await prefix.findOne({
