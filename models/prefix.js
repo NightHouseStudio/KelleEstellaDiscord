@@ -1,9 +1,11 @@
 const mongoose = require("mongoose");
 
 const PrefixSchema = new mongoose.Schema({
+  // Selected prefix
   Prefix: {
     type: String
   },
+  // Guild ID
   GuildID: String
 });
 
