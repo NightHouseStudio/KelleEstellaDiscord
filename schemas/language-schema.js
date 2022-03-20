@@ -8,6 +8,7 @@ const reqString = {
 const languageSchema = mongoose.Schema({
   // Guild Id
   _id: reqString,
+  // Language selected
   language: reqString
 })
 
