@@ -8,10 +8,15 @@
 
 Um simples bot do Discord com algumas funções de moderação, utilidade, diversão, etc. Divirta-se conversando com a Kelle!
 
+## ℹ️ Sobre
+A Kelle é um bot do Discord... quer dizer: uma patrulheira estelar nascida do Brasil.
+
 ## 🔧 Recursos
 - Discord.js
 - Node.js
 - NPM
+
+As **packages NPM** utilizadas no projeto estão no arquivo [package.json](https://github.com/NightHouseStudio/KelleEstellaDiscord/blob/main/package.json), em `"dependencies"`.
 
 # #️⃣ Comandos
 Abaixo está a lista de comandos que você pode utilizar nos servidores, separada por permissões.
