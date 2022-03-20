@@ -9,7 +9,6 @@ exports.run = (bot,message,args) => {
     const embed2 = new MessageEmbed()
 .setAuthor('Kelle', bot.user.avatarURL())
 .setTitle('Veja todos os meus comandos clicando aqui!')
-//.setImage('https://i.ibb.co/kcbG5vN/hug-34.gif')
 .setURL('http://kelle.atwebpages.com/comandos')
 .addFields(
         { name: '🤔', value: '**Como funciona o `server`?**'},
@@ -25,20 +24,18 @@ exports.run = (bot,message,args) => {
 	const background = await Canvas.loadImage(response.favicon);
 	ctx.drawImage(background, 0, 0, canvas.width, canvas.height);
 
- // const attachment = new Discord.MessageAttachment(canvas.toBuffer(), 'serverIcon.png');
-
      const server = new MessageEmbed()
-		.setColor('#ffff00')
-		.setTitle('Informações do Server')
-		.addField('IP do Server', response.host)
-		.addField('Versão do Minecraft', response.version)
-		.addField('Jogadores', response.onlinePlayers)
-		.addField('Número máximo de jogadores', response.maxPlayers)
-		.addField('Descrição do Server', response.description)
-    .setThumbnail('attachment://serverIcon.png')
-		.setFooter('Kelle Estella | 2020', bot.user.avatarURL());
+	.setColor('#ffff00')
+	.setTitle('Informações do Server')
+	.addField('IP do Server', response.host)
+	.addField('Versão do Minecraft', response.version)
+	.addField('Jogadores', response.onlinePlayers)
+	.addField('Número máximo de jogadores', response.maxPlayers)
+	.addField('Descrição do Server', response.description)
+    	.setThumbnail('attachment://serverIcon.png')
+	.setFooter('Kelle Estella | 2020', bot.user.avatarURL());
 
-		message.lineReply({ embed: server, files: [new Discord.MessageAttachment(canvas.toBuffer(), 'serverIcon.png')] });
+	message.lineReply({ embed: server, files: [new Discord.MessageAttachment(canvas.toBuffer(), 'serverIcon.png')] });
 
     })
     .catch((error) => {
