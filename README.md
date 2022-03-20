@@ -1,4 +1,8 @@
 # Kelle Estella
+[![GitHub issues](https://img.shields.io/github/issues/NightHouseStudio/KelleEstellaDiscord?style=flat-square)](https://github.com/NightHouseStudio/KelleEstellaDiscord/issues)
+[![GitHub forks](https://img.shields.io/github/forks/NightHouseStudio/KelleEstellaDiscord?style=flat-square)](https://github.com/NightHouseStudio/KelleEstellaDiscord/network)
+[![GitHub stars](https://img.shields.io/github/stars/NightHouseStudio/KelleEstellaDiscord?style=flat-square)](https://github.com/NightHouseStudio/KelleEstellaDiscord/stargazers)
+
 Um simples bot do Discord com algumas funções de moderação, utilidade, diversão, etc. Divirta-se conversando com a Kelle!
 
 ## Recursos
