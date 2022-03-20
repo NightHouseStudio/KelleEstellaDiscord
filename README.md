@@ -1,19 +1,20 @@
-# Kelle Estella
+# 🙋🏽‍♀️ Kelle Estella
 [![GitHub issues](https://img.shields.io/github/issues/NightHouseStudio/KelleEstellaDiscord?style=flat-square)](https://github.com/NightHouseStudio/KelleEstellaDiscord/issues)
 [![GitHub forks](https://img.shields.io/github/forks/NightHouseStudio/KelleEstellaDiscord?style=flat-square)](https://github.com/NightHouseStudio/KelleEstellaDiscord/network)
 [![GitHub stars](https://img.shields.io/github/stars/NightHouseStudio/KelleEstellaDiscord?style=flat-square)](https://github.com/NightHouseStudio/KelleEstellaDiscord/stargazers)
+[![GitHub license](https://img.shields.io/github/license/NightHouseStudio/KelleEstellaDiscord?style=flat-square)](https://github.com/NightHouseStudio/KelleEstellaDiscord/blob/main/LICENSE)
 
 Um simples bot do Discord com algumas funções de moderação, utilidade, diversão, etc. Divirta-se conversando com a Kelle!
 
-## Recursos
+## 🔧 Recursos
 - Discord.js
 - Node.js
 - NPM
 
-# Comandos
+# #️⃣ Comandos
 Abaixo está a lista de comandos que você pode utilizar nos servidores, separada por permissões.
 
-### Administrador
+### 👑 Administrador
 
 |Comando|Descrição|Utilização/Exemplo|Permissões necessárias|
 |---|---|---|---|
@@ -22,7 +23,7 @@ Abaixo está a lista de comandos que você pode utilizar nos servidores, separad
 |`!prefixo`|Alterar o prefixo do bot|`!prefixo +`|Administrador|
 |`!enquete`|Criar uma enquete no servidor|`!enquete`|Administrador|
 
-### Membro
+### 👤 Membro
 |Comando|Descrição|Utilização/Exemplo|Permissões necessárias|
 |---|---|---|---|
 |`!anime`|Ver informações sobre um anime (from [Kitsu.io](https://kitsu.io/)).|`!anime shingeki no kyojin`|Membro|
@@ -35,5 +36,5 @@ Abaixo está a lista de comandos que você pode utilizar nos servidores, separad
 |`!skin`|Ver skin de algum player de **Minecraft**.|`!skin viniccius13`|Membro|
 |`!steam`|Ver o perfil de algum usuário da **Steam**.|`!steam luisgbr1el`|Membro|
 
-# Compilar
+# ⚙️ Compilar
 Para compilar a Kelle no seu PC, siga os passos abaixo.
