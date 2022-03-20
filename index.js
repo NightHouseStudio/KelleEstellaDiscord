@@ -80,22 +80,22 @@ bot.on("message", async(message) => {
 
     if (message.author.bot) return false;
 
-    if (
-      message.content.includes("@here") ||
-      message.content.includes("@everyone")
-    )
-      return false;
-    if (message.mentions.has(bot.user)) {
-      message.lineReply(
-        "Oi! Prazer em conhecê-lo <@" +
-          message.author +
-          ">. Meu nome é Kelle Estella. \nMeu prefixo neste servidor é `" +
-          prefix +
-          "`. \nEnvie `" +
-          prefix +
-          "help` para ver o que eu posso fazer."
-      );
-    }
+    //if (
+    //  message.content.includes("@here") ||
+    //  message.content.includes("@everyone")
+    //)
+    //  return false;
+    //if (message.mentions.has(bot.user)) {
+    //  message.lineReply(
+    //    "Oi! Prazer em conhecê-lo <@" +
+    //      message.author +
+    //      ">. Meu nome é Kelle Estella. \nMeu prefixo neste servidor é `" +
+    //      prefix +
+    //      "`. \nEnvie `" +
+    //      prefix +
+    //      "help` para ver o que eu posso fazer."
+    //  );
+    //}
 
     if (!message.content.startsWith(prefix)) return;
     if (message.content === prefix) {
