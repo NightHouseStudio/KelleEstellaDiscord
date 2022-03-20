@@ -1,4 +1,6 @@
 # 🙋🏽‍♀️ Kelle Estella
+<img src="https://user-images.githubusercontent.com/62726888/159185694-adbc1510-ea24-4602-9112-a3f71c79fc95.png" width="200px">
+
 [![GitHub issues](https://img.shields.io/github/issues/NightHouseStudio/KelleEstellaDiscord?style=flat-square)](https://github.com/NightHouseStudio/KelleEstellaDiscord/issues)
 [![GitHub forks](https://img.shields.io/github/forks/NightHouseStudio/KelleEstellaDiscord?style=flat-square)](https://github.com/NightHouseStudio/KelleEstellaDiscord/network)
 [![GitHub stars](https://img.shields.io/github/stars/NightHouseStudio/KelleEstellaDiscord?style=flat-square)](https://github.com/NightHouseStudio/KelleEstellaDiscord/stargazers)
