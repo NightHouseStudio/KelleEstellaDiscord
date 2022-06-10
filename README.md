@@ -44,8 +44,8 @@ Abaixo está a lista de comandos que você pode utilizar nos servidores, separad
 |`!servidor`|Ver informações sobre um servidor de **Minecraft**.|`!servidor mc.hypixel.net`|Membro|
 |`!skin`|Ver skin de algum player de **Minecraft**.|`!skin viniccius13`|Membro|
 |`!steam`|Ver o perfil de algum usuário da **Steam**.|`!steam luisgbr1el`|Membro|
-# 👥 Nossa Comunidade
 
+# 👥 Nossa Comunidade
 [Discord](https://discord.gg/kWzb29n5Yd)
 
 # ⚙️ Compilar
