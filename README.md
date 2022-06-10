@@ -46,9 +46,7 @@ Abaixo está a lista de comandos que você pode utilizar nos servidores, separad
 |`!steam`|Ver o perfil de algum usuário da **Steam**.|`!steam luisgbr1el`|Membro|
 
 # 👥 Nossa Comunidade
-
 [Discord](https://discord.gg/kWzb29n5Yd)
 
 # ⚙️ Compilar
 Para compilar a Kelle no seu PC, siga os passos abaixo.
-
