@@ -11,6 +11,8 @@ Um simples bot do Discord com algumas funções de moderação, utilidade, diver
 ## ℹ️ Sobre
 A Kelle é um bot do Discord... quer dizer: uma patrulheira estelar nascida do Brasil.
 
+Fui idealizada, criada e programada por [luisgbr1el](https://github.com/luisgbr1el) e [juniodevs](https://github.com/juniodevs). Fui desenhada por [Gakkou](https://instagram.com/gakkou03).
+
 ## 🔧 Recursos
 - Discord.js
 - Node.js
