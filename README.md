@@ -37,8 +37,8 @@ Abaixo está a lista de comandos que você pode utilizar nos servidores, separad
 |---|---|---|---|
 |`!anime`|Ver informações sobre um anime (from [Kitsu.io](https://kitsu.io/)).|`!anime shingeki no kyojin`|Membro|
 |`!animefinder`/`!af`|Usar imagens para procurar animes (from **Sauce Bot**).|`!af link_da_imagem`|Membro|
-|`!avatar`|Ver a sua foto do perfil ou a de alguém.|`!avatar` ou `!avatar @usuario#0000`|Membro|
-|`!dicio`|Ver significado, definições e utilizações de palavras.|`!dicio programar`|Membro|
+|`!avatar`|Ver a sua foto do perfil ou a de alguém.|`!avatar` ou `!avatar @usuario#0000 ou ID`|Membro|
+|`!dicio`|Ver significado, definições e utilizações de palavras.|`!dicio estudar`|Membro|
 |`!help`/`!ajuda`|Ver informações e orientações de como usar o bot.|`!help`|Membro|
 |`!manga`|Ver informações sobre um mangá (from [Kitsu.io](https://kitsu.io/)).|`!manga jujutsu kaisen`|Membro|
 |`!servidor`|Ver informações sobre um servidor de **Minecraft**.|`!servidor mc.hypixel.net`|Membro|
