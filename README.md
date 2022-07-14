@@ -65,5 +65,7 @@ npm install
 ```
 
 ### 3. Adicione o seu token
+```bot.login(token);
+```
 
 ### 4. Divirta-se :D
