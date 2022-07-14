@@ -51,4 +51,8 @@ Abaixo está a lista de comandos que você pode utilizar nos servidores, separad
 # ⚙️ Compilar
 Para compilar a Kelle no seu PC, siga os passos abaixo.
 
-1 - Clone o Repositório
+### 1. Clone o Repositório
+Vá no seu terminal, e usando o **Git**, escreva:
+```
+git clone https://github.com/NightHouseStudio/KelleEstellaDiscord.git
+```
