@@ -27,10 +27,10 @@ Abaixo está a lista de comandos que você pode utilizar nos servidores, separad
 
 |Comando|Descrição|Utilização/Exemplo|Permissões necessárias|
 |---|---|---|---|
-|`!banir`|Banir um usuário|`!banir @usuario#0000`|Administrador|
-|`!limpar`|Limpar mensagens da conversa|`!limpar 100`|Administrador|
-|`!prefixo`|Alterar o prefixo do bot|`!prefixo +`|Administrador|
-|`!enquete`|Criar uma enquete no servidor|`!enquete`|Administrador|
+|`!banir`|Banir um usuário|`!banir @usuario#0000`|Administrador(a)|
+|`!limpar`|Limpar mensagens da conversa|`!limpar 100`|Administrador(a)|
+|`!prefixo`|Alterar o prefixo do bot|`!prefixo +`|Administrador(a)|
+|`!enquete`|Criar uma enquete no servidor|`!enquete`|Administrador(a)|
 
 ### 👤 Membro
 |Comando|Descrição|Utilização/Exemplo|Permissões necessárias|
@@ -50,3 +50,5 @@ Abaixo está a lista de comandos que você pode utilizar nos servidores, separad
 
 # ⚙️ Compilar
 Para compilar a Kelle no seu PC, siga os passos abaixo.
+
+1 - Clone o Repositório
