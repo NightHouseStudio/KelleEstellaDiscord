@@ -65,3 +65,5 @@ npm install
 ```
 
 ### 3. Adicione o seu token
+
+### 4. Divirta-se :D
