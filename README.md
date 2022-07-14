@@ -56,3 +56,5 @@ Vá no seu terminal, e usando o **Git**, escreva:
 ```
 git clone https://github.com/NightHouseStudio/KelleEstellaDiscord.git
 ```
+### 2. Instale os pacotes NPM
+Para executar o bot corretamente, você precisa instalar os pacotes necessários. No seu terminal, entre na pasta `\KelleEstellaDiscord` e digite:
