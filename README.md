@@ -53,6 +53,15 @@ Para compilar a Kelle no seu PC, siga os passos abaixo.
 
 ### 1. Clone o Repositório
 Vá no seu terminal, e usando o **Git**, escreva:
-```
+```bash
 git clone https://github.com/NightHouseStudio/KelleEstellaDiscord.git
 ```
+### 2. Instale os pacotes NPM
+Para executar o bot corretamente, você precisa instalar os pacotes necessários.
+
+No seu terminal, entre na pasta `\KelleEstellaDiscord` e digite:
+```bash
+npm install
+```
+
+### 3. Adicione o seu token
